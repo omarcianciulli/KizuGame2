@@ -1,0 +1,202 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="680" height="650" viewBox="0 0 680 650" role="img" aria-labelledby="title desc">
+  <title id="title">Un piccolo ratto rosa, un universo intero</title>
+  <desc id="desc">Un ratto rosa con cuffie e felpa viola su un'isola fluttuante, fra gigli, un torii, una piramide e un pianeta con gli anelli.</desc>
+  <defs>
+    <radialGradient id="halo"><stop stop-color="#8b66c9" stop-opacity=".38"/><stop offset=".6" stop-color="#6e4d9f" stop-opacity=".12"/><stop offset="1" stop-color="#171121" stop-opacity="0"/></radialGradient>
+    <radialGradient id="planet" cx=".34" cy=".22"><stop stop-color="#f5cee9"/><stop offset=".42" stop-color="#c29ee8"/><stop offset="1" stop-color="#72558e"/></radialGradient>
+    <linearGradient id="fur" x1=".15" y1="0" x2=".85" y2="1"><stop stop-color="#ffdfef"/><stop offset=".45" stop-color="#f5b6d7"/><stop offset="1" stop-color="#d479b0"/></linearGradient>
+    <linearGradient id="ear" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ffdcee"/><stop offset=".5" stop-color="#f6b1d3"/><stop offset="1" stop-color="#cc77a9"/></linearGradient>
+    <radialGradient id="innerEar"><stop stop-color="#b665a0"/><stop offset=".65" stop-color="#dd87b8"/><stop offset="1" stop-color="#ed9ac5"/></radialGradient>
+    <linearGradient id="hoodie" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#d6c0fa"/><stop offset=".48" stop-color="#a28bdf"/><stop offset="1" stop-color="#7360b0"/></linearGradient>
+    <linearGradient id="hoodShadow" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#9276bf"/><stop offset="1" stop-color="#5c437f"/></linearGradient>
+    <linearGradient id="rock" x1=".2" y1="0" x2=".65" y2="1"><stop stop-color="#b89ce8"/><stop offset=".33" stop-color="#8973b7"/><stop offset="1" stop-color="#3b3154"/></linearGradient>
+    <linearGradient id="grass" x1="0" y1="0" x2="1" y2=".7"><stop stop-color="#e8d0f6"/><stop offset=".48" stop-color="#b89ce8"/><stop offset="1" stop-color="#967ec4"/></linearGradient>
+    <linearGradient id="petal" x1=".2" y1="0" x2=".8" y2="1"><stop stop-color="#ffe5f2"/><stop offset=".45" stop-color="#f7bedb"/><stop offset="1" stop-color="#ce70ad"/></linearGradient>
+    <linearGradient id="purplePetal" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ece0ff"/><stop offset=".5" stop-color="#b6a0ec"/><stop offset="1" stop-color="#7860b5"/></linearGradient>
+    <linearGradient id="leaf" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#b1cbae"/><stop offset="1" stop-color="#5e8d8e"/></linearGradient>
+    <linearGradient id="pyramid" x1="0" y1="0" x2=".8" y2="1"><stop stop-color="#f2d2a4"/><stop offset="1" stop-color="#b58a91"/></linearGradient>
+    <linearGradient id="torii" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ffbbcf"/><stop offset="1" stop-color="#bb719f"/></linearGradient>
+    <pattern id="dust" width="41" height="43" patternUnits="userSpaceOnUse"><circle cx="4" cy="8" r=".6" fill="#f7e4ff" opacity=".16"/><circle cx="30" cy="29" r=".8" fill="#f7e4ff" opacity=".11"/></pattern>
+    <g id="spark" fill="#f8dec7"><path d="M0-8 2-2 8 0 2 2 0 8-2 2-8 0-2-2Z"/></g>
+    <g id="lily" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M0 9C-17-4-24-27-18-47-5-39 5-21 0 9Z" fill="url(#petal)" stroke="#f6d4e7" stroke-width=".7"/>
+      <path d="M0 9C8-14 25-36 43-36 37-14 24 3 0 9Z" fill="url(#petal)" stroke="#f6d4e7" stroke-width=".7"/>
+      <path d="M0 9C-23 7-44-6-48-22-26-25-8-12 0 9Z" fill="url(#petal)" stroke="#f6d4e7" stroke-width=".7"/>
+      <path d="M0 9C-4-11 3-34 15-43 20-18 13 0 0 9Z" fill="url(#petal)" stroke="#f6d4e7" stroke-width=".7"/>
+      <path d="M0 9C12-2 36 0 49 12 25 23 12 19 0 9Z" fill="url(#petal)" stroke="#f6d4e7" stroke-width=".7"/>
+      <path d="M0 9C-16 10-33 18-33 32-14 35-1 25 0 9Z" fill="url(#petal)" stroke="#f6d4e7" stroke-width=".7"/>
+      <g stroke="#a65c94" stroke-width=".9" opacity=".45"><path d="M-1 8-17-37M1 7 33-27M-3 7-37-18M1 5 12-33M3 10 38 12M-4 13-26 28"/></g>
+      <g fill="#ac6296" opacity=".58"><circle cx="-7" cy="-1" r="1"/><circle cx="-12" cy="-11" r="1.1"/><circle cx="5" cy="-5" r="1"/><circle cx="14" cy="-7" r="1.2"/><circle cx="19" cy="10" r="1"/><circle cx="-13" cy="17" r="1.2"/><circle cx="-18" cy="2" r=".9"/></g>
+      <g stroke="#f3d59b" stroke-width="1.4"><path d="M0 9-10-13M1 9 9-14M1 9 21-5M0 9-20-5"/></g>
+      <g fill="#f6d39a"><ellipse cx="-10" cy="-14" rx="2.8" ry="1.7" transform="rotate(28 -10 -14)"/><ellipse cx="9" cy="-15" rx="2.7" ry="1.6"/><ellipse cx="22" cy="-5" rx="2.7" ry="1.6"/><ellipse cx="-21" cy="-5" rx="2.7" ry="1.6"/></g>
+    </g>
+    <g id="smallStar"><circle r="1.4" fill="#dec9f3"/></g>
+  </defs>
+
+  <ellipse cx="344" cy="322" rx="334" ry="311" fill="url(#halo)"/>
+  <ellipse cx="344" cy="322" rx="317" ry="295" fill="url(#dust)" opacity=".68"/>
+
+  <!-- Orbit threads and quiet constellations. -->
+  <g fill="none" stroke="#a48bbe" stroke-width="1" opacity=".32">
+    <ellipse cx="337" cy="322" rx="277" ry="189" transform="rotate(-28 337 322)" stroke-dasharray="3 9"/>
+    <path d="M94 136 144 89 179 123 225 91M457 82 482 123 522 111M554 356 594 389 565 426"/>
+    <path d="M109 399C38 329 54 240 97 215"/>
+  </g>
+  <g fill="#d8c8ef"><circle cx="94" cy="136" r="2.1"/><circle cx="144" cy="89" r="2.8"/><circle cx="179" cy="123" r="2"/><circle cx="225" cy="91" r="2.4"/><circle cx="457" cy="82" r="2.2"/><circle cx="482" cy="123" r="2.2"/><circle cx="522" cy="111" r="2"/><circle cx="594" cy="389" r="2"/><circle cx="565" cy="426" r="2"/></g>
+  <g opacity=".8"><use xlink:href="#spark" transform="translate(179 332) scale(.7)"/><use xlink:href="#spark" transform="translate(414 108) scale(.7)"/><use xlink:href="#spark" transform="translate(574 305) scale(.8)"/><use xlink:href="#spark" transform="translate(481 395) scale(.8)"/><use xlink:href="#spark" transform="translate(302 83) scale(.5)"/><use xlink:href="#spark" transform="translate(108 479) scale(.55)"/><use xlink:href="#spark" transform="translate(425 572) scale(.7)"/></g>
+  <g opacity=".65"><use xlink:href="#smallStar" transform="translate(369 79)"/><use xlink:href="#smallStar" transform="translate(590 214)"/><use xlink:href="#smallStar" transform="translate(489 300)"/><use xlink:href="#smallStar" transform="translate(120 360)"/><use xlink:href="#smallStar" transform="translate(207 548)"/><use xlink:href="#smallStar" transform="translate(355 598)"/><use xlink:href="#smallStar" transform="translate(583 500)"/><use xlink:href="#smallStar" transform="translate(68 311)"/><use xlink:href="#smallStar" transform="translate(399 155)"/></g>
+
+  <!-- Ringed planet, layered ring for real depth. -->
+  <g transform="translate(522 175) rotate(-24)">
+    <ellipse rx="76" ry="25" fill="none" stroke="#cfb5e8" stroke-width="9" opacity=".35"/>
+    <circle r="44" fill="url(#planet)"/>
+    <path d="M-35-23C-17-9 12-6 37-11M-42-7C-16 8 16 13 42 7M-37 16C-12 28 8 29 30 27" fill="none" stroke="#fcdeef" stroke-width="5" opacity=".17"/>
+    <path d="M-76 0A76 25 0 0 0 76 0" fill="none" stroke="#dec2e9" stroke-width="10"/>
+    <path d="M-76 0A76 25 0 0 0 76 0" fill="none" stroke="#f5d8ec" stroke-width="2"/>
+    <circle cx="-14" cy="-21" r="3" fill="#ffecf8" opacity=".45"/>
+  </g>
+
+  <!-- Tiny lantern island: an invitation, not a second focal point. -->
+  <g transform="translate(103 266) rotate(-7)">
+    <path d="M-53 9 49 7 39 27 12 47-25 38Z" fill="url(#rock)"/>
+    <ellipse cy="8" rx="53" ry="13" fill="url(#grass)"/>
+    <path d="M-30 4-25-51M29 4 23-51" stroke="url(#torii)" stroke-width="9"/>
+    <path d="M-44-54Q0-46 43-54L39-45Q0-39-40-45Z" fill="url(#torii)"/>
+    <path d="M-34-31H34" stroke="#dc93b5" stroke-width="6"/>
+    <path d="M0-44V-27" stroke="#eab3c9" stroke-width="3"/>
+    <path d="M-46-57Q0-49 45-57" fill="none" stroke="#ffe1df" stroke-width="2.4"/>
+    <path d="M26-33H47V-21" fill="none" stroke="#d6b49a" stroke-width="2"/>
+    <ellipse cx="47" cy="-11" rx="8" ry="12" fill="#f4cb9e"/>
+    <path d="M43-22H51M43 1H51M47-23V1" stroke="#bd8291" stroke-width="1.5"/>
+    <path d="M-43 4C-47-2-44-8-37-13M-35 7C-35-1-32-5-28-7" fill="none" stroke="#a1b5a8" stroke-width="3"/>
+    <circle cx="-38" cy="-10" r="4" fill="#e8bddf"/>
+  </g>
+
+  <!-- A warm sand-coloured island with a cool purple underside. -->
+  <g transform="translate(552 453) rotate(6)">
+    <path d="M-56 5 54 3 37 28-2 47-39 24Z" fill="url(#rock)"/>
+    <ellipse cy="4" rx="56" ry="13" fill="#bd9fae"/>
+    <path d="M-47 4-3-61 41 4Z" fill="url(#pyramid)"/>
+    <path d="M-3-61 10 4H41Z" fill="#9c788f"/>
+    <path d="M-34-14-17-14M-27-27H-10M-16-42H-6M-42-1H-22" stroke="#ffe6c3" opacity=".4" stroke-width="1.2"/>
+    <path d="M30 1 32-34 37-41 42-34 44 1Z" fill="#ddb69c"/>
+    <path d="M37-41V1H44L42-34Z" fill="#a77d91"/>
+    <path d="M-54 3C-60-3-61-12-57-18M-54 3C-51-7-47-10-44-11" stroke="#a0ada0" stroke-width="2" fill="none"/>
+    <circle cx="-24" cy="13" r="2" fill="#dec5da"/>
+  </g>
+
+  <!-- Tail behind the body, unmistakably rat. -->
+  <path d="M298 419C251 464 169 440 170 393 171 355 219 352 226 381 233 408 195 419 195 395" fill="none" stroke="#79486e" stroke-width="17" stroke-linecap="round" opacity=".4"/>
+  <path d="M299 415C252 460 172 436 173 390 173 354 220 352 226 380 232 406 197 416 197 394" fill="none" stroke="#d98bb8" stroke-width="13" stroke-linecap="round"/>
+  <path d="M296 412C253 456 178 432 177 391 177 361 215 355 222 378" fill="none" stroke="#ffc6df" stroke-width="3.5" stroke-linecap="round" opacity=".7"/>
+
+  <!-- The main floating garden. -->
+  <ellipse cx="333" cy="534" rx="193" ry="34" fill="#0c0913" opacity=".23"/>
+  <path d="M151 466 184 511 228 536 261 546 302 568 330 552 369 568 407 532 448 519 489 468Z" fill="url(#rock)" stroke="#b9a0d9" stroke-width="1"/>
+  <path d="M173 483 226 508 261 546 239 485M284 488 301 568 330 517M372 490 369 568 405 514M436 483 448 519 478 483" fill="#59476f" opacity=".34"/>
+  <path d="M199 508 230 519M272 535 293 547M373 532 392 515M432 505 442 490" stroke="#d4bce8" stroke-width="2" opacity=".28" stroke-linecap="round"/>
+  <path d="M149 466C152 439 234 421 325 423 430 421 500 445 493 468 489 491 420 508 325 506 228 510 155 490 149 466Z" fill="url(#grass)" stroke="#d9beef" stroke-width="1.5"/>
+  <path d="M160 462C214 490 403 514 485 464" fill="none" stroke="#ebd8f9" stroke-width="2" opacity=".6"/>
+  <ellipse cx="329" cy="466" rx="99" ry="18" fill="#65527f" opacity=".28"/>
+  <path d="M183 459 192 455M218 476 224 479M391 479 400 478M445 456 451 460M274 489 282 487" stroke="#f2e1fc" stroke-width="2" opacity=".5" stroke-linecap="round"/>
+  <g fill="#f5dce9"><circle cx="209" cy="463" r="2"/><circle cx="422" cy="468" r="2.4"/><circle cx="368" cy="489" r="1.6"/><circle cx="243" cy="490" r="1.8"/></g>
+
+  <!-- Feet and oversized hoodie. -->
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <path d="M272 425C259 431 254 447 266 455 277 462 303 460 307 452L310 427Z" fill="#705081" stroke="#533e68" stroke-width="2"/>
+    <path d="M343 427C332 438 339 454 352 457 372 461 392 456 390 445 388 435 372 427 371 424Z" fill="#705081" stroke="#533e68" stroke-width="2"/>
+    <path d="M262 450C272 459 295 458 306 452M342 451C353 460 379 458 388 451" fill="none" stroke="#f0cddb" stroke-width="5"/>
+    <path d="M273 438 286 440M276 432 289 435M356 435 367 438M352 441 365 443" stroke="#e2bfd6" stroke-width="2.3"/>
+    <path d="M274 325C255 348 253 397 262 427 287 445 349 451 378 427 387 393 374 344 358 325Z" fill="url(#hoodie)" stroke="#695083" stroke-width="2.5"/>
+    <path d="M261 424Q318 446 377 425L376 434Q317 453 265 434Z" fill="#8b71b2"/>
+    <path d="M282 394Q320 404 355 396L353 418Q321 429 284 418Z" fill="#9b80ca" stroke="#b69bdf" stroke-width="1.5"/>
+    <path d="M292 398 287 414M347 400 351 414" stroke="#756095" stroke-width="1.6"/>
+    <path d="M272 332C255 328 237 350 232 376 232 391 248 403 262 399 273 384 282 350 272 332Z" fill="url(#hoodie)" stroke="#75608f" stroke-width="2"/>
+    <path d="M237 380Q249 374 263 383L261 394Q247 402 237 392Z" fill="#9e83ca"/>
+    <path d="M239 391C235 399 239 413 250 416 261 419 270 408 265 397 258 391 251 389 239 391Z" fill="url(#fur)" stroke="#b57ba3" stroke-width="1.5"/>
+    <path d="M250 404 254 411M256 401 260 408" stroke="#c987ad" stroke-width="1.3"/>
+    <path d="M360 332C379 327 388 341 402 360 411 373 402 388 391 387 377 385 356 366 350 352Z" fill="url(#hoodie)" stroke="#75608f" stroke-width="2"/>
+    <path d="M387 355Q399 352 407 364L401 376Q391 378 383 367Z" fill="#b49bdb"/>
+    <path d="M397 355C390 347 395 336 405 336 413 330 426 339 425 350 429 360 420 368 410 367 403 366 398 362 397 355Z" fill="url(#fur)" stroke="#b57ba3" stroke-width="1.5"/>
+    <path d="M403 339 410 343M402 344 409 348" stroke="#ce8db6" stroke-width="1.4"/>
+    <path d="M269 327Q314 363 363 324L352 312 283 310Z" fill="url(#hoodShadow)" stroke="#d9bfec" stroke-width="2"/>
+    <path d="M291 334 292 373M338 336 341 376" stroke="#f5dce4" stroke-width="3"/>
+    <path d="M291 371 292 379M341 374 342 382" stroke="#e0b2ce" stroke-width="4.2"/>
+    <path d="M313 371C305 359 294 372 313 385 334 374 320 359 313 371Z" fill="#eed0e8" opacity=".86"/>
+    <!-- Lemon tea can. -->
+    <g transform="translate(416 329) rotate(16)">
+      <rect x="-12" y="-20" width="24" height="37" rx="5" fill="#dccb90" stroke="#fff0c6" stroke-width="1.2"/>
+      <ellipse cy="-19" rx="10" ry="3" fill="#f1e5c2"/>
+      <ellipse cy="-19" rx="4" ry="1.4" fill="#9a8b6a"/>
+      <path d="M-11-5H11V9H-11Z" fill="#9b94bd"/>
+      <ellipse cy="1" rx="6" ry="4" transform="rotate(-30)" fill="#f6dea0"/>
+      <path d="M-2-4Q2-10 6-7" fill="none" stroke="#8aaf93" stroke-width="2.3"/>
+    </g>
+  </g>
+
+  <!-- Ears: asymmetry keeps this little face handmade. -->
+  <g stroke="#bd7ca7" stroke-width="2.5">
+    <ellipse cx="244" cy="211" rx="53" ry="57" transform="rotate(-22 244 211)" fill="url(#ear)"/>
+    <ellipse cx="389" cy="196" rx="57" ry="61" transform="rotate(20 389 196)" fill="url(#ear)"/>
+  </g>
+  <ellipse cx="244" cy="211" rx="36" ry="40" transform="rotate(-22 244 211)" fill="url(#innerEar)"/>
+  <ellipse cx="389" cy="197" rx="39" ry="43" transform="rotate(20 389 197)" fill="url(#innerEar)"/>
+  <path d="M211 180C222 166 240 160 252 163M365 150C383 142 405 149 416 162" fill="none" stroke="#ffebf4" stroke-width="4" stroke-linecap="round" opacity=".75"/>
+  <path d="M220 214C224 195 242 187 257 199M370 203C373 181 391 171 407 187" fill="none" stroke="#f6b6d5" stroke-width="2.6" stroke-linecap="round" opacity=".65"/>
+
+  <!-- Headphone band is behind the face and below the ears. -->
+  <path d="M223 254C215 176 397 165 413 246" fill="none" stroke="#55406c" stroke-width="13" stroke-linecap="round"/>
+  <path d="M223 251C221 183 394 174 410 244" fill="none" stroke="#d0b6ec" stroke-width="5" stroke-linecap="round"/>
+
+  <!-- Big soft face, pointed muzzle, glossy eyes. -->
+  <path d="M244 239C252 207 284 198 318 202 353 196 386 209 396 238 408 261 401 285 384 298 372 310 359 330 336 339 311 350 278 331 259 311 241 301 229 281 234 262 236 252 239 244 244 239Z" fill="url(#fur)" stroke="#bc7fa7" stroke-width="2.3"/>
+  <path d="M256 234C268 216 289 210 307 213" fill="none" stroke="#ffedf5" stroke-width="5" stroke-linecap="round" opacity=".76"/>
+  <path d="M309 207 315 198 321 208 331 200 331 210" fill="#f8c4df" stroke="#fbd0e5" stroke-width="1.6" stroke-linejoin="round"/>
+  <path d="M266 299C275 322 305 335 332 333 358 330 373 312 374 297 358 280 344 275 328 275 309 277 281 285 266 299Z" fill="#f9cadf" opacity=".92"/>
+  <ellipse cx="278" cy="269" rx="13" ry="18" transform="rotate(-7 278 269)" fill="#392942"/>
+  <ellipse cx="357" cy="263" rx="14" ry="18" transform="rotate(10 357 263)" fill="#392942"/>
+  <ellipse cx="281" cy="263" rx="4.5" ry="5.8" fill="#fff2fa"/>
+  <ellipse cx="360" cy="257" rx="4.6" ry="5.6" fill="#fff2fa"/>
+  <circle cx="274" cy="274" r="2" fill="#bc9ac6"/>
+  <circle cx="353" cy="269" r="2" fill="#bc9ac6"/>
+  <path d="M269 243Q278 237 286 242M347 236Q357 231 365 236" fill="none" stroke="#b87a9f" stroke-width="3" stroke-linecap="round"/>
+  <ellipse cx="260" cy="290" rx="15" ry="8" transform="rotate(20 260 290)" fill="#df83b3" opacity=".48"/>
+  <ellipse cx="379" cy="285" rx="14" ry="8" transform="rotate(-19 379 285)" fill="#df83b3" opacity=".48"/>
+  <path d="M320 291C326 286 337 287 341 292 342 299 332 304 328 302 324 301 319 295 320 291Z" fill="#aa668d"/>
+  <ellipse cx="330" cy="291" rx="5.2" ry="2" fill="#e7a5c5"/>
+  <path d="M331 302 332 309Q322 321 309 310M332 309Q341 319 351 307" fill="none" stroke="#a86f90" stroke-width="2" stroke-linecap="round"/>
+  <path d="M326 316Q333 319 339 315L337 324 330 326Z" fill="#fff3e9" stroke="#cc94af" stroke-width=".8"/>
+  <g fill="none" stroke="#ffe1ef" stroke-width="1.5" stroke-linecap="round" opacity=".94"><path d="M294 301 244 295M292 308 238 309M294 314 247 326M358 298 406 284M360 305 415 302M358 313 409 321"/></g>
+  <g fill="#c987af" opacity=".55"><circle cx="299" cy="295" r="1.4"/><circle cx="292" cy="301" r="1.1"/><circle cx="300" cy="307" r="1.3"/><circle cx="357" cy="289" r="1.1"/><circle cx="364" cy="296" r="1.4"/></g>
+
+  <!-- Earpads and small floral charm. -->
+  <g transform="rotate(-12 235 264)"><rect x="218" y="244" width="24" height="42" rx="12" fill="#6d5087" stroke="#d0b3e8" stroke-width="2.5"/><rect x="216" y="250" width="9" height="31" rx="4.5" fill="#b497d4"/></g>
+  <g transform="rotate(12 402 254)"><rect x="392" y="235" width="22" height="39" rx="11" fill="#6d5087" stroke="#d0b3e8" stroke-width="2.5"/><rect x="409" y="243" width="8" height="26" rx="4" fill="#b497d4"/></g>
+  <path d="M221 281Q213 317 234 332" fill="none" stroke="#ac91ce" stroke-width="2"/>
+  <g transform="translate(234 334)"><path d="M0-6Q8-13 7-4 16-3 9 3 11 12 3 8-3 15-6 7-14 6-8-1-10-10 0-6Z" fill="#f0bfd9"/><circle r="3.3" fill="#f3dfa9"/></g>
+
+  <!-- Flowers wrap the island without obscuring the character. -->
+  <g stroke-linecap="round">
+    <path d="M175 491C173 460 158 438 147 413M175 489C183 463 201 458 210 444" fill="none" stroke="#719591" stroke-width="4"/>
+    <path d="M170 471C144 466 134 451 137 441 157 442 169 451 170 471Z" fill="url(#leaf)"/>
+    <path d="M178 471C177 451 186 441 198 441 202 453 192 466 178 471Z" fill="url(#leaf)"/>
+    <use xlink:href="#lily" transform="translate(145 407) rotate(-16) scale(.84)"/>
+    <use xlink:href="#lily" transform="translate(212 441) rotate(18) scale(.48)"/>
+    <path d="M446 491C452 462 451 431 464 412M446 490C432 468 420 456 411 446" fill="none" stroke="#719591" stroke-width="4"/>
+    <path d="M451 465C452 444 474 437 484 441 478 457 466 465 451 465Z" fill="url(#leaf)"/>
+    <path d="M442 473C426 473 417 463 418 452 431 449 439 457 442 473Z" fill="url(#leaf)"/>
+    <use xlink:href="#lily" transform="translate(467 404) rotate(19) scale(.85)"/>
+    <use xlink:href="#lily" transform="translate(409 441) rotate(-14) scale(.51)"/>
+    <path d="M225 518C236 502 240 489 238 474" fill="none" stroke="#8fac9f" stroke-width="3"/>
+    <path d="M229 512C211 510 206 497 211 489 226 492 231 500 229 512Z" fill="url(#leaf)"/>
+    <g transform="translate(238 474)"><path d="M0 3C-22-1-28-13-25-27-8-23-2-10 0 3ZM0 3C-8-16-1-34 8-37 16-18 12-5 0 3ZM0 3C10-16 26-19 33-10 29 3 14 10 0 3ZM0 3C16 3 19 15 13 25-2 21-6 11 0 3ZM0 3C-6 19-19 22-28 14-23 2-10-1 0 3Z" fill="url(#purplePetal)" stroke="#d8c6f6" stroke-width=".8"/><circle r="4" fill="#ead39e"/></g>
+  </g>
+
+  <!-- Small falling petals and a few bright finishing points. -->
+  <path d="M187 536Q179 552 192 557 204 544 187 536Z" fill="#d29ecb" transform="rotate(-20 191 546)"/>
+  <path d="M459 535Q448 546 456 555 470 548 459 535Z" fill="#b499db"/>
+  <path d="M130 384Q125 374 135 371 143 379 130 384Z" fill="#eeb9d6"/>
+  <circle cx="486" cy="335" r="3.1" fill="#dfc0ed"/>
+  <circle cx="200" cy="149" r="2.5" fill="#ebd5ef"/>
+  <use xlink:href="#spark" transform="translate(333 592) scale(.43)"/>
+</svg>

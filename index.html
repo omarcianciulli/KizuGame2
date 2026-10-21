@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#171121">
+  <meta name="description" content="Un piccolo universo da esplorare. Quattro mondi, domande curiose e un ratto rosa con una missione.">
+  <meta name="robots" content="noindex,nofollow">
+  <title>Nasty Little Universe — un piccolo gioco per te</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css?v=2">
+  <script src="config.js" defer></script>
+  <script src="js/quiz-data.js?v=2" defer></script>
+  <script src="js/audio.js" defer></script>
+  <script src="js/art.js?v=2" defer></script>
+  <script src="js/scenes.js?v=2" defer></script>
+  <script src="js/engine.js?v=2" defer></script>
+  <script src="js/main.js?v=2" defer></script>
+</head>
+<body>
+  <svg class="svg-defs" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <defs>
+      <symbol id="i-star" viewBox="0 0 24 24"><path d="m12 1 2.8 7.4L23 12l-8.2 3.2L12 23l-3-7.8L1 12l8-3.6Z" fill="currentColor"/></symbol>
+      <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 19 19 5M5 5h14v14" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+      <symbol id="i-left" viewBox="0 0 24 24"><path d="m14 5-7 7 7 7" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+      <symbol id="i-right" viewBox="0 0 24 24"><path d="m10 5 7 7-7 7" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+      <symbol id="i-pause" viewBox="0 0 24 24"><path d="M8 6v12M16 6v12" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></symbol>
+      <symbol id="i-close" viewBox="0 0 24 24"><path d="m6 6 12 12M18 6 6 18" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></symbol>
+      <symbol id="i-flower" viewBox="0 0 48 48"><path d="M24 26c-6-2-16-11-13-21 10 0 14 11 13 21Z" fill="currentColor"/><path d="M24 26c2-8 4-20 15-23 6 10-3 20-15 23Z" fill="currentColor" opacity=".8"/><path d="M24 26C14 29 3 24 2 14c10-6 20 2 22 12ZM24 26c5-9 15-11 22-5-2 10-14 12-22 5Z" fill="currentColor" opacity=".9"/><path d="M24 26v19m0-9c6-5 12-2 12-2-1 5-7 7-12 7m0-11c-6-5-11-3-11-3 0 6 6 9 11 8" stroke="#a5c49d" fill="none" stroke-width="2" stroke-linecap="round"/><path d="m24 25 1-11m-1 11 7-9m-7 9-7-9" stroke="#f9e3a5" stroke-width="1.4"/><circle cx="25" cy="13" r="2" fill="#f9e3a5"/><circle cx="32" cy="15" r="2" fill="#f9e3a5"/><circle cx="16" cy="15" r="2" fill="#f9e3a5"/></symbol>
+      <symbol id="i-lock" viewBox="0 0 24 24"><path d="M7 10V7a5 5 0 0 1 10 0v3M6 10h12v11H6Z" stroke="currentColor" fill="none" stroke-width="1.6" stroke-linejoin="round"/><circle cx="12" cy="15" r="1.3" fill="currentColor"/></symbol>
+      <symbol id="i-book" viewBox="0 0 24 24"><path d="M4 4h16v17H4zM8 4v17M11 9h6m-6 4h5" stroke="currentColor" fill="none" stroke-width="1.5" stroke-linecap="round"/></symbol>
+      <symbol id="i-settings" viewBox="0 0 24 24"><path d="M5 3v18M12 3v18M19 3v18" stroke="currentColor" stroke-width="1.3"/><path d="M2 8h6M9 16h6M16 7h6" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></symbol>
+      <symbol id="i-rat" viewBox="0 0 48 48"><ellipse cx="12" cy="14" rx="10" ry="12" fill="#eb9bc8"/><ellipse cx="36" cy="14" rx="10" ry="12" fill="#eb9bc8"/><ellipse cx="12" cy="14" rx="6" ry="8" fill="#b85c96"/><ellipse cx="36" cy="14" rx="6" ry="8" fill="#b85c96"/><path d="M8 23Q24 9 40 23l-4 14-12 9-12-9Z" fill="#f9bedc"/><ellipse cx="17" cy="26" rx="2.5" ry="3.3" fill="#25182f"/><ellipse cx="31" cy="26" rx="2.5" ry="3.3" fill="#25182f"/><path d="m20 35 4 4 4-4Z" fill="#a43f83"/><path d="m16 33-13-2m13 5L3 38m29-5 13-2m-13 5 13 2" stroke="#fff0fa" stroke-width="1.4"/></symbol>
+    </defs>
+  </svg>
+
+  <div class="app-shell">
+    <header class="app-header">
+      <button class="brand" id="home-button" aria-label="Torna all’universo">
+        <span class="brand-mark"><svg><use href="#i-rat"/></svg></span>
+        <span>NASTY LITTLE<br><b>UNIVERSE</b><span class="brand-star">✦</span></span>
+      </button>
+      <nav class="top-nav" aria-label="Menu principale">
+        <button class="nav-link" id="album-button" aria-label="Apri Memoria, album delle figurine"><svg><use href="#i-book"/></svg><span>Memoria</span><small id="album-count">1/7</small></button>
+        <button class="icon-button" id="settings-button" aria-label="Impostazioni"><svg><use href="#i-settings"/></svg></button>
+        <button class="sound-button" id="sound-button" aria-label="Attiva musica" aria-pressed="false"><span class="equalizer" aria-hidden="true"><i></i><i></i><i></i><i></i></span><span id="sound-label">AUDIO OFF</span></button>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home-screen" class="screen home-screen" aria-labelledby="home-title">
+        <div class="hero">
+          <div class="hero-copy">
+            <div class="eyebrow"><span class="tiny-orbit"></span> UN GIOCO FATTO <span id="made-for">PER TE</span></div>
+            <h1 id="home-title">Nasty little<br><span>universe.</span><svg class="title-star"><use href="#i-star"/></svg></h1>
+            <p class="hero-description">Un ratto rosa, quattro gigli da ritrovare.<br>Un piccolo viaggio fatto per te.</p>
+            <div class="hero-actions"><button class="primary-button" id="start-button"><span>Entriamo?</span><svg><use href="#i-arrow"/></svg></button><button class="text-button" id="how-button">Come si gioca <span>↗</span></button></div>
+
+          </div>
+          <div class="hero-visual" aria-label="Un piccolo ratto rosa tra gigli, pianeti e una città viola">
+            <div class="hero-orbit orbit-one"></div><div class="hero-orbit orbit-two"></div>
+            <img src="assets/cover.svg" class="cover-art" alt="Ratto rosa con cuffie su un piccolo pianeta viola, circondato da gigli, piramidi e un portale giapponese" width="680" height="650" fetchpriority="high">
+
+          </div>
+        </div>
+
+        <div class="chapter-heading"><div><h2>Quattro piccoli mondi.</h2></div><div class="lily-progress" id="lily-progress" aria-label="Gigli raccolti"></div></div>
+        <div class="chapter-grid" id="chapter-grid"></div>
+        <div class="home-bottom"><button class="text-button" id="ending-home" hidden>Ricomponi il bouquet ↗</button></div>
+      </section>
+
+      <section id="game-screen" class="screen game-screen" aria-labelledby="stage-title" hidden>
+        <div class="stage-heading"><div><span class="eyebrow" id="stage-label"></span><h1 id="stage-title"></h1></div><button class="pause-button" id="pause-button" aria-label="Metti in pausa"><svg><use href="#i-pause"/></svg><span>Pausa</span></button></div>
+        <div class="game-hud"><span id="stage-mission">Due varchi. Un giglio da recuperare.</span><div class="hud-items"><span class="petal-meter"><svg><use href="#i-flower"/></svg><b id="petal-count">0</b></span><span id="gates-count">0/2 VARCHI</span></div></div>
+        <div class="canvas-frame" id="canvas-frame"><canvas id="game-canvas" tabindex="0" aria-label="Platformer. Frecce o A e D per muoverti, spazio per saltare. Su telefono usa i pulsanti sotto."></canvas></div>
+        <div class="game-toast" id="game-toast" role="status" aria-live="polite"></div>
+        <div class="journey-progress" aria-label="Avanzamento nel livello"><span id="journey-fill"></span></div>
+        <div class="game-controls"><div class="direction-controls"><button class="control-button" data-control="left" aria-label="Muovi a sinistra"><svg><use href="#i-left"/></svg></button><button class="control-button" data-control="right" aria-label="Muovi a destra"><svg><use href="#i-right"/></svg></button></div><div class="control-note">Doppio<br>salto</div><button class="jump-button" data-control="jump"><svg><use href="#i-arrow"/></svg><span>SALTA</span></button></div>
+        <div class="stage-footer"><span id="track-credit">Musica</span></div>
+      </section>
+
+      <section id="ending-screen" class="screen ending-screen" aria-labelledby="ending-title" hidden>
+        <div class="ending-orb" aria-hidden="true"></div>
+        <span class="eyebrow">DESTINAZIONE RAGGIUNTA</span>
+        <h1 id="ending-title">Tutto questo caos.<br><em>Un posto per noi.</em></h1>
+        <p id="bouquet-instruction">Tocca i quattro gigli per comporre il bouquet.</p>
+        <div class="bouquet-scene"><div id="bouquet-flowers"></div><svg class="vase" viewBox="0 0 220 190" aria-hidden="true"><defs><linearGradient id="vase-grad"><stop stop-color="#552d81"/><stop offset=".5" stop-color="#9a68b1"/><stop offset="1" stop-color="#452e70"/></linearGradient></defs><path d="M54 30h112l-18 135q-38 25-76 0Z" fill="url(#vase-grad)" stroke="#c09fdb" stroke-width="1.5"/><ellipse cx="110" cy="30" rx="56" ry="13" fill="#352046" stroke="#b794d1"/><path d="M72 50 84 153" stroke="#e3c5ef" opacity=".3" stroke-width="3"/><path d="m104 126 6 7 6-7a4 4 0 0 0-6-5 4 4 0 0 0-6 5Z" fill="#f5b6d1"/></svg></div>
+        <div id="flower-picker" class="flower-picker"></div>
+        <div class="final-letter" id="final-letter" hidden><p id="final-message"></p><p class="letter-signature" id="letter-signature"></p><div class="ending-actions"><button class="primary-button" id="ending-album">Apri Memoria <svg><use href="#i-book"/></svg></button><button class="text-button" id="ending-replay">Un altro giro? ↗</button></div></div>
+      </section>
+    </main>
+    <footer class="app-footer" id="app-footer" hidden></footer>
+  </div>
+
+  <dialog id="modal" class="modal"><div id="modal-content"></div></dialog>
+  <div id="global-toast" class="global-toast" role="status" aria-live="polite"></div>
+  <noscript><div class="noscript">Questo universo ha bisogno di JavaScript. Attivalo nel browser e ricarica la pagina.</div></noscript>
+</body>
+</html>

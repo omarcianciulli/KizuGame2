@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <defs><linearGradient id="fur" x2=".7" y2="1"><stop stop-color="#ffd9ec"/><stop offset="1" stop-color="#d98ab8"/></linearGradient></defs>
+  <rect width="48" height="48" rx="13" fill="#241a35"/>
+  <g fill="url(#fur)" stroke="#efbadc" stroke-width=".8"><circle cx="13" cy="15" r="9"/><circle cx="35" cy="15" r="9"/></g>
+  <g fill="#c979a9"><circle cx="13" cy="15" r="5.5"/><circle cx="35" cy="15" r="5.5"/></g>
+  <path d="M10 23C10 12 37 12 38 23 39 31 30 41 24 41 18 41 9 31 10 23Z" fill="url(#fur)"/>
+  <g fill="#39263f"><ellipse cx="17" cy="26" rx="2.6" ry="3.5"/><ellipse cx="31" cy="26" rx="2.6" ry="3.5"/></g>
+  <g fill="#fff0f8"><circle cx="17.7" cy="24.8" r="1"/><circle cx="31.7" cy="24.8" r="1"/></g>
+  <path d="M21 32Q24 29 27 32L24 35Z" fill="#9a587c"/>
+  <path d="M24 35V36Q20 39 18 35M24 36Q28 39 30 35" stroke="#9a587c" stroke-width="1" fill="none" stroke-linecap="round"/>
+  <g stroke="#ffe7f3" stroke-width=".8" stroke-linecap="round"><path d="M17 32 7 30M17 35 6 35M31 32 41 30M31 35 42 35"/></g>
+</svg>

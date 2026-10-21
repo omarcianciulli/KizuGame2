@@ -1,0 +1,126 @@
+{
+  "date": "2026-10-21",
+  "photos": [
+    {
+      "original": "WhatsApp Image 2026-10-21 at 14.40.19.jpeg",
+      "file": "assets/photos/pink-rat.jpg",
+      "bytes": 35538,
+      "sha256": "9ea3eaefcc9d07d09b5e9a97fdab9ef61ac84eb829a4b68901c5e0f48a0ec04c",
+      "unchanged": true
+    },
+    {
+      "original": "WhatsApp Image 2026-10-21 at 14.40.19 (1).jpeg",
+      "file": "assets/photos/double-portrait.jpg",
+      "bytes": 124581,
+      "sha256": "f41da2b0f306b7a2ca56f228a566a1dd54adeff293444658224a6155fbf161f5",
+      "unchanged": true
+    },
+    {
+      "original": "WhatsApp Image 2026-10-21 at 14.40.19 (2).jpeg",
+      "file": "assets/photos/sonic-break.jpg",
+      "bytes": 40158,
+      "sha256": "b83680343e6788aac6af4d01be4af92cba5a514cdf920e4f7b5a53d3ff281c35",
+      "unchanged": true
+    },
+    {
+      "original": "WhatsApp Image 2026-10-21 at 14.44.43.jpeg",
+      "file": "assets/photos/gold-icon.jpg",
+      "bytes": 64712,
+      "sha256": "3604a3d93cc2654d597208cb4a3898bb7cfbba83e4ef56633bc4f1f77a6821be",
+      "unchanged": true
+    },
+    {
+      "original": "WhatsApp Image 2026-10-21 at 14.44.44.jpeg",
+      "file": "assets/photos/strange-visitor.jpg",
+      "bytes": 42172,
+      "sha256": "8e7239ad48170ffca4e51983deb9f825f2c141c812db388d38a6913a808b4a6e",
+      "unchanged": true
+    },
+    {
+      "original": "WhatsApp Image 2026-10-21 at 14.44.44 (1).jpeg",
+      "file": "assets/photos/cucumber-duo.jpg",
+      "bytes": 21490,
+      "sha256": "e63665193365ba8d76244576e55b8dad718fa3614b5ff9a58b6f3df00ce929b5",
+      "unchanged": true
+    },
+    {
+      "original": "WhatsApp Image 2026-10-21 at 14.44.44 (2).jpeg",
+      "file": "assets/photos/purple-globe.jpg",
+      "bytes": 756461,
+      "sha256": "1256eb19fd9444f84ba885971deba4ee321e9249bc4fd1c1a2f77c96150bc510",
+      "unchanged": true
+    }
+  ],
+  "audio": [
+    {
+      "id": "bam-bam",
+      "title": "Bam bam",
+      "chapter": "Giardino notturno",
+      "original": "_FREE_ goofy type beat + паранойя + dadbackwood + eelijahh + soundcloud type beat - bam bam.wav",
+      "file": "assets/audio/bam-bam.mp3",
+      "source_bytes": 15388750,
+      "bytes": 1727087,
+      "source_duration_seconds": 87.23737,
+      "duration_seconds": 87.275102,
+      "duration_difference_seconds": 0.037732,
+      "encoding": "MP3 LAME VBR q4, stereo 44.1 kHz",
+      "complete": true
+    },
+    {
+      "id": "glass-jaw",
+      "title": "Glass jaw",
+      "chapter": "Kyoto / Vice city",
+      "original": "[free] slayr + waera type beat glass jaw.wav",
+      "file": "assets/audio/glass-jaw.mp3",
+      "source_bytes": 20627534,
+      "bytes": 2104636,
+      "source_duration_seconds": 116.935692,
+      "duration_seconds": 116.976327,
+      "duration_difference_seconds": 0.040635,
+      "encoding": "MP3 LAME VBR q4, stereo 44.1 kHz",
+      "complete": true
+    },
+    {
+      "id": "escape-matrix",
+      "title": "Escape matrix",
+      "chapter": "Deserto",
+      "original": "free twentythree type beat - escape matrix.wav",
+      "file": "assets/audio/escape-matrix.mp3",
+      "source_bytes": 21176398,
+      "bytes": 2411869,
+      "source_duration_seconds": 120.047166,
+      "duration_seconds": 120.084898,
+      "duration_difference_seconds": 0.037732,
+      "encoding": "MP3 LAME VBR q4, stereo 44.1 kHz",
+      "complete": true
+    },
+    {
+      "id": "no-peace",
+      "title": "No peace",
+      "chapter": "Orbita viola",
+      "original": "_free_ (beat switch) slayr + waera type beat - no peace.wav",
+      "file": "assets/audio/no-peace.mp3",
+      "source_bytes": 38944846,
+      "bytes": 4295565,
+      "source_duration_seconds": 220.775329,
+      "duration_seconds": 220.813061,
+      "duration_difference_seconds": 0.037732,
+      "encoding": "MP3 LAME VBR q4, stereo 44.1 kHz",
+      "complete": true
+    },
+    {
+      "id": "young-money",
+      "title": "2010 / R&B / Young Money",
+      "chapter": "Menu ed epilogo",
+      "original": "(free) 2010 + rnb + young money type beat.wav",
+      "file": "assets/audio/young-money.mp3",
+      "source_bytes": 27353166,
+      "bytes": 2910512,
+      "source_duration_seconds": 155.062857,
+      "duration_seconds": 155.08898,
+      "duration_difference_seconds": 0.026123,
+      "encoding": "MP3 LAME VBR q4, stereo 44.1 kHz",
+      "complete": true
+    }
+  ]
+}
